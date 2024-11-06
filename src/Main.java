@@ -16,6 +16,7 @@ class  UserThread extends Thread
 
         Thread t=Thread.currentThread();
 
+
         String tname=t.getName();
         System.out.println("current running thread is :"+tname);
         try
